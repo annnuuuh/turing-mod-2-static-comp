@@ -1,1 +1,90 @@
-/* font-family: 'Quicksand', sans-serif; */
+* {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #6C5A49;
+  word-wrap: break-word;
+}
+
+body {
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-auto-rows: minmax(400px, auto);
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+
+header {
+  height: 50px;
+  width: 100%;
+  background: black;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background: black;
+}
+
+.zoey-img {
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  background-color: #E6FAFC;
+  border-radius: 3px;
+}
+
+p, h3, ul, li {
+  justify-content: center;
+  margin: 0;
+  padding: 5px;
+  background-color: #E6FAFC;
+  list-style-type: none;
+}
+
+h3 {
+  color: #0D1B2A;
+  height: 25px;
+}
+
+.paw-prints {
+  background: transparent;
+  width: 50px;
+  height: auto;
+  position: relative;
+  margin-bottom: -70px;
+  margin-left: 10px;
+}
+
+.rating {
+  background: transparent;
+  margin-bottom: -93px;
+  margin-right: 5px;
+  text-align: right;
+  font-size: 25px;
+  color: white;
+  position: relative;
+}
+
+.url {
+  padding: 5px;
+  height: 50px;
+  background-color: white;
+  width: 290px;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.card-text-container {
+  background-color: #E6FAFC;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
